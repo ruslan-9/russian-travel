@@ -1,0 +1,12 @@
+.place__bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 320px) {
+    .place__bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
