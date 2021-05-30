@@ -10,11 +10,3 @@
     text-align: left;
     width: 100%;
 }
-
-
-@media screen and (max-width: 768px) {
-    .lead__caption {
-        margin-left: 24px;
-    }
-
-}
