@@ -5,24 +5,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__paragraph {
+    .place__paragraphs {
         width: 100%;
         margin: 0;
 
     }
 }
-
-@media screen and (max-width: 768px) {
-    .place__paragraph {
-        width: 100%;
-        margin: 0;
-    }
-
-}
-
 
 @media screen and (max-width: 320px) {
-    .place__paragraph {
+    .place__paragraphs {
         margin-bottom: 25px;
         font-size: 16px;
         width: 288px;

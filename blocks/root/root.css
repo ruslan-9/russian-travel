@@ -6,11 +6,18 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    max-width: 1184px;
+    min-width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+    .root {
+        min-width: 720px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .root {
-        width: 320px;
+        min-width: 186px;
     }
-
 }

@@ -6,7 +6,6 @@
     flex-direction: column;
     align-items: start;
     max-width: 984px;
-    min-height: 429px;
 }
 
 
@@ -20,6 +19,7 @@
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 720px;
+        padding-left: 24px;
     }
 }
 

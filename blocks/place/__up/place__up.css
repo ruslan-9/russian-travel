@@ -1,14 +1,12 @@
-.place__top {
+.place__up {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     margin-bottom: 48px;
-
 }
 
 @media screen and (max-width: 320px) {
-    .place__top {
-        display: flex;
+    .place__up {
         flex-direction: column;
         justify-content: start;
         align-items: start;

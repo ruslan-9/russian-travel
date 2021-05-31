@@ -12,6 +12,8 @@
     box-sizing: border-box;
     text-decoration: none;
     color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 
 .cover__background::before {
@@ -27,7 +29,7 @@
 }
 
 .cover__background:hover::before {
-    opacity: 0;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

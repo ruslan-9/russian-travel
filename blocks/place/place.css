@@ -10,7 +10,6 @@
     .place {
         max-width: 984px;
         gap: 48px 32px;
-
     }
 }
 
@@ -21,15 +20,12 @@
     }
 }
 
-
 @media screen and (max-width: 320px) {
     .place {
-        max-width: 320px;
-        gap: 48px 28px;
-        display: flex;
-        flex-direction: column;
         justify-content: start;
         align-items: start;
         margin-bottom: 50px;
+        margin-left: 0;
+        gap: 0;
     }
 }

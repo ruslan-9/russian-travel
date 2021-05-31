@@ -3,27 +3,23 @@
     flex-direction: row;
     margin: 0 auto 24px auto;
     max-width: 1184px;
-    min-height: 18px;
     position: relative;
 }
 
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
-        min-height: 18px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .footer {
         max-width: 720px;
-        min-height: 18px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
-        display: flex;
         flex-direction: column;
         margin-left: 16px;
     }
