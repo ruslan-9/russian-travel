@@ -3,9 +3,16 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__end {
         flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .place__end {
+        margin: 0;
     }
 
 }
