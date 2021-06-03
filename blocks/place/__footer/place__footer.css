@@ -1,11 +1,11 @@
-.place__end {
+.place__footer {
     display: flex;
     flex-direction: row;
+    align-items: start;
 }
 
-
 @media screen and (max-width: 750px) {
-    .place__end {
+    .place__footer {
         margin: 0;
         flex-direction: column;
         width: 100%;

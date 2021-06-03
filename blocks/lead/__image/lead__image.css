@@ -9,9 +9,3 @@
         width: 100%;
     }
 }
-
-@media screen and (max-width: 390px) {
-    .lead__image {
-        max-width: 390px;
-    }
-}

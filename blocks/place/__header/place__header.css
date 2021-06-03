@@ -1,4 +1,4 @@
-.place__up {
+.place__header {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 750px) {
-    .place__up {
+    .place__header {
         margin: 0;
         flex-direction: column;
         justify-content: start;
@@ -16,9 +16,8 @@
     }
 }
 
-
 @media screen and (max-width: 390px) {
-    .place__up {
+    .place__header {
         max-width: 288px;
     }
 

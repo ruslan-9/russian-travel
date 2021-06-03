@@ -14,6 +14,7 @@
     .place {
         max-width: calc(100% - 298px);
 }
+
 }
 @media screen and (max-width: 1084px) {
     .place {
