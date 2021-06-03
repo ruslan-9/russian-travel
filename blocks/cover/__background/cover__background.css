@@ -49,11 +49,10 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .cover__background {
         max-width: 320px;
         min-height: 200px;
         background-size: 320px 200px;
-        margin-top: 16px;
     }
 }

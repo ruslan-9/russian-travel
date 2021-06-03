@@ -7,11 +7,4 @@
     .place__website {
         line-height: 12px;
     }
-
-}
-
-@media screen and (max-width: 320px) {
-    .place__website {
-        margin-bottom: 32px;
-    }
 }

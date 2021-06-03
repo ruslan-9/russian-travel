@@ -17,10 +17,11 @@
     .cover {
         max-width: 768px;
         min-height: 480px;
+        margin-bottom: 88px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .cover {
         max-width: 320px;
         min-height: 200px;

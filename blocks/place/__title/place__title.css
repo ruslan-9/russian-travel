@@ -6,7 +6,6 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
-    grid-area: title;
     margin-right: 40px;
 }
 
@@ -27,11 +26,21 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
     .place__title {
-        width: 288px;
+        max-width: calc(100% -32px);
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 32px;
+        text-align: start;
+
     }
+}
+
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        max-width: 288px;
+    }
+
 }

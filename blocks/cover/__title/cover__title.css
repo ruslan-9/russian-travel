@@ -9,9 +9,10 @@
     color: #FFFFFF;
     position: relative;
     margin: 0;
+    padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
